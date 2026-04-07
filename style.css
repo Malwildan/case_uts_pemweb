@@ -1,0 +1,188 @@
+/* =============================================
+   Style umum untuk semua halaman
+   ============================================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+.error {
+    background-color: #ffe0e0;
+    color: #c00;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* =============================================
+   Halaman Login
+   ============================================= */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+}
+
+.login-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 320px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box button {
+    width: 100%;
+    font-size: 16px;
+}
+
+.hint {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+}
+
+/* =============================================
+   Halaman Buku Tamu
+   ============================================= */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+header a:hover {
+    background: rgba(0,0,0,0.35);
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+/* Tampilan tiap entri buku tamu */
+.entry {
+    border-left: 4px solid #4a90e2;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border-radius: 0 6px 6px 0;
+}
+
+.entry .entry-name {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+}
+
+.entry .entry-email {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 6px;
+}
+
+.entry .entry-pesan {
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.entry .entry-tanggal {
+    font-size: 11px;
+    color: #aaa;
+}
+
+.empty-text {
+    text-align: center;
+    color: #aaa;
+    padding: 20px 0;
+}
