@@ -39,7 +39,7 @@ textarea {
 }
 
 button {
-    background-color: #4a90e2;
+    background-color: #ff8a00;
     color: white;
     border: none;
     border-radius: 4px;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background-color: #357abd;
+    background-color: #e06500;
 }
 
 .error {
@@ -114,7 +114,7 @@ button:hover {
 }
 
 header {
-    background: #4a90e2;
+    background: #ff8a00;
     color: white;
     padding: 15px 20px;
     border-radius: 8px;
@@ -152,7 +152,7 @@ header a:hover {
 
 /* Tampilan tiap entri buku tamu */
 .entry {
-    border-left: 4px solid #4a90e2;
+    border-left: 4px solid #ff8a00;
     padding: 12px 15px;
     margin-bottom: 15px;
     background: #f9f9f9;
